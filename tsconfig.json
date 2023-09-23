@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@assets/*": ["./src/assets/*"],
+      "@components/*": ["./src/components/*"],
+      "@components": ["./src/components"],
+      "@config/*": ["./src/config/*"],
+      "@navigation/*": ["./src/navigation/*"],
+      "@navigation": ["./src/navigation"],
+      "@pages/*": ["./src/pages/*"],
+      "@services/*": ["./src/services/*"],
+      "@services": ["./src/services"],
+      "@utils/*": ["./src/utils/*"],
+    }
+  },
+  "extends": "expo/tsconfig.base",
+}
